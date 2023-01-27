@@ -117,3 +117,7 @@ button {
   font-size: 18px;
   line-height: 27px;
 }
+
+button:hover {
+  cursor: pointer;
+}
