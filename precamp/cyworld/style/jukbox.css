@@ -1,0 +1,120 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content__header {
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content__title {
+  display: flex;
+  justify-content: row;
+  align-items: flex-end;
+}
+
+.title {
+  color: #55b2d4;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.subtitle {
+  margin-left: 8px;
+  font-size: 8px;
+}
+
+.divide {
+  border-top: 1px solid gray;
+  margin: 6px 0;
+}
+
+.song__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song_img {
+  width: 120px;
+  height: 120px;
+}
+
+.song_title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0f465e;
+}
+
+.song_singer {
+  font-size: 10px;
+  font-weight: 700;
+  color: #999999;
+}
+
+.song_img1 {
+  background-image: url("../image/song1.png");
+}
+
+.song_img2 {
+  background-image: url("../image/song2.png");
+}
+.song_img3 {
+  background-image: url("../image/song3.png");
+}
+
+table {
+  width: 100%;
+  font-size: 10px;
+  font-weight: 700;
+  border-collapse: collapse;
+}
+
+table th {
+  color: #999999;
+}
+
+table .checkbox {
+  width: 10px;
+}
+
+tbody tr td {
+  color: #0f465e;
+}
+
+table .number {
+  text-align: center;
+  color: black;
+}
+
+table thead tr .number {
+  color: #999999;
+}
+
+thead {
+  background-color: #eeeeee;
+}
+
+thead tr {
+  text-align: left;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+tbody tr {
+  border-bottom: 1px dashed #999999;
+}
